@@ -1,17 +1,18 @@
 var products=[
-{name:"RCV Ultimate CV Axle Set",brand:"RCV",cat:"Transmisión",sku:"CVJ3525-BSP-RCV",price:1599.95,stock:"En stock",fit:"Y61 GU 1997+ · H233B · 31 spline",img:"https://cdn11.bigcommerce.com/s-ix0ixasu7w/images/stencil/500x500/products/2559/1992/cvj3525-bsp-rcv__66445.1760379738.jpg?c=1",icon:"⚙️"},
-{name:"Trail-Gear Birfield Kit",brand:"TRAIL-GEAR",cat:"Transmisión",sku:"TGI-300809-KIT",price:0,stock:"Consultar",fit:"Y61 / GU 1997–2013 · todos los motores",img:"",icon:"⚙️"},
-{name:"Longfield Front Axle — Short",brand:"TRAIL-GEAR",cat:"Transmisión",sku:"TGI-300974-KIT",price:196.71,stock:"Disponible",fit:"Y61 1997–2013 · 30/31 spline",img:"",icon:"🔩"},
-{name:"Longfield Front Axle — Long",brand:"TRAIL-GEAR",cat:"Transmisión",sku:"TGI-300975-KIT",price:196.71,stock:"Disponible",fit:"Y61 1997–2013 · 30/31 spline",img:"",icon:"🔩"},
-{name:"King 2.0 Steering Stabilizer",brand:"KING",cat:"Dirección",sku:"Y61-KING-2.0",price:290,stock:"Disponible",fit:"Nissan Patrol Y61 1997+",img:"",icon:"↔️"},
-{name:"ICON Centerline Steering Stabilizer",brand:"ICON",cat:"Dirección",sku:"82020",price:317.19,stock:"Stock limitado",fit:"Nissan Patrol Y61 1997+",img:"",icon:"↔️"},
-{name:"ARB Air Locker H260 37 Spline",brand:"ARB",cat:"Transmisión",sku:"RD215",price:1399.95,stock:"Disponible",fit:"Y61 1997–2016 · H260 · 37 spline",img:"",icon:"⚙️"},
-{name:"Dobinsons IMS Front Shock 3 in",brand:"DOBINSONS",cat:"Suspensión",sku:"IMS51-60116",price:1400,stock:"Disponible",fit:"Y60/Y61 1987–2015 · individual",img:"",icon:"🛞"},
-{name:"FOX Performance Front Shock",brand:"FOX",cat:"Suspensión",sku:"985-24-076",price:229.95,stock:"Low stock",fit:"Y60/Y61 · delantero · lift 3–5.5 in",img:"https://serenity-foxfactory.asset.akeneo.cloud/fox_asset_family/media/985_24_226_fox_truck_performance_smooth_body_shock_pr_1600x1600.png",icon:""},
-{name:"FOX Reservoir Rear Shock 3–5.5 in",brand:"FOX",cat:"Suspensión",sku:"985-26-142",price:0,stock:"Consultar",fit:"Y60/Y61 1988–2023 · lift 3–5.5 in",img:"",icon:"🛞"},
-{name:"aFe Momentum GT Pro 5R Intake",brand:"aFe POWER",cat:"Motor",sku:"54-76107",price:451,stock:"Disponible",fit:"Y61 2017–2018 · TB48 4.8L",img:"",icon:"🌬️"},
-{name:"ARB Gearbox Packer Kit",brand:"ARB",cat:"Transmisión",sku:"GQGK02",price:98,stock:"Disponible",fit:"Nissan Patrol Y61 SWB",img:"",icon:"🔧"},
-{name:"Extended Brake Line Kit",brand:"TRAIL-GEAR",cat:"Frenos",sku:"304503-KIT",price:0,stock:"Consultar",fit:"Y61 Non-ABS · lift 2–5.9 in",img:"https://www.sneveysoffroad.com/image/cache/catalog/Trail-Gear/304177-KIT-FLCL-500x500.jpg",icon:"🛞"}];
+{name:"RCV Ultimate CV Axle Set",brand:"RCV",cat:"Transmisión",sku:"CVJ3525-BSP-RCV",price:1599.95,stock:"En stock",fit:"Y61 GU 1997+ · H233B · 31 spline",img:"https://cdn11.bigcommerce.com/s-ix0ixasu7w/images/stencil/500x500/products/2559/1992/cvj3525-bsp-rcv__66445.1760379738.jpg?c=1",icon:""},
+{name:"RCV Rear Drive Flange Kit",brand:"RCV",cat:"Transmisión",sku:"PAT-DF",price:299.95,stock:"Disponible",fit:"Patrol Y61 1997–2016 · 31 spline",img:"",icon:""},
+{name:"Trail-Gear Birfield Kit",brand:"TRAIL-GEAR",cat:"Transmisión",sku:"TGI-300809-KIT",price:1154.85,stock:"Disponible",fit:"Patrol Y61 · Birfield kit",img:"",icon:""},
+{name:"Trail-Gear Longfield Birfields",brand:"TRAIL-GEAR",cat:"Transmisión",sku:"TGI-300807-KIT",price:381.81,stock:"Disponible",fit:"Patrol Y61 · Longfield Birfields",img:"",icon:""},
+{name:"Longfield Front Axle — Short",brand:"TRAIL-GEAR",cat:"Transmisión",sku:"TGI-300974-KIT",price:196.71,stock:"Disponible",fit:"Y61 1997–2013 · 30/31 spline",img:"",icon:""},
+{name:"Longfield Front Axle — Long",brand:"TRAIL-GEAR",cat:"Transmisión",sku:"TGI-300975-KIT",price:196.71,stock:"Disponible",fit:"Y61 1997–2013 · 30/31 spline",img:"",icon:""},
+{name:"ICON Y61 Suspension System",brand:"ICON",cat:"Suspensión",sku:"Y61-SYSTEM",price:2766.20,stock:"Disponible",fit:"Nissan Patrol Y61 1997+",img:"",icon:""},
+{name:"ICON Front Dual Rate Coil Springs",brand:"ICON",cat:"Suspensión",sku:"Y61-FRONT-COIL",price:293.16,stock:"Disponible",fit:"Y61 1997–2023 · 2 in lift · front",img:"",icon:""},
+{name:"ICON Rear Dual Rate Coil Springs",brand:"ICON",cat:"Suspensión",sku:"Y61-REAR-COIL",price:282.26,stock:"Disponible",fit:"Y61 1997–2023 · 2 in lift · rear",img:"",icon:""},
+{name:"King 2.0 Steering Stabilizer",brand:"KING",cat:"Dirección",sku:"Y61-KING-2.0",price:290,stock:"Disponible",fit:"Nissan Patrol Y61 1997+",img:"",icon:""},
+{name:"FOX Performance Front Shock",brand:"FOX",cat:"Suspensión",sku:"985-24-076",price:229.95,stock:"Disponible",fit:"Y60/Y61 · delantero · lift 3–5.5 in",img:"https://serenity-foxfactory.asset.akeneo.cloud/fox_asset_family/media/985_24_226_fox_truck_performance_smooth_body_shock_pr_1600x1600.png",icon:""},
+{name:"Revolution Gear H233B Gear Package",brand:"REVOLUTION GEAR",cat:"Transmisión",sku:"H233B-4.88-5.89",price:1201.99,stock:"Disponible",fit:"Nissan Patrol H233B · ratios 4.88–5.89",img:"",icon:""},
+{name:"Extended Brake Line Kit",brand:"TRAIL-GEAR",cat:"Frenos",sku:"304503-KIT",price:0,stock:"Consultar",fit:"Patrol Y61 Non-ABS · lift 2–5.9 in",img:"https://www.sneveysoffroad.com/image/cache/catalog/Trail-Gear/304177-KIT-FLCL-500x500.jpg",icon:""}
+]
 var cats=[["Inicio","⌂",""],["Suspensión","","/assets/suspension.svg"],["Frenos","","/assets/brakes.svg"],["Dirección","","/assets/steering.svg"],["Transmisión","","/assets/transmission.svg"],["Motor","","/assets/motor.svg"],["Refrigeración","","/assets/cooling.svg"],["Eléctrico","","/assets/electrical.svg"]],C=[],active="Inicio";
 try{C=JSON.parse(localStorage.getItem("patrolY61Cart")||"[]")||[]}catch(e){}
 function money(v){return v?("US$ "+v.toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2})):"Consultar"}
