@@ -13,7 +13,7 @@ var products=[
 {name:"Revolution Gear H233B Gear Package",brand:"REVOLUTION GEAR",cat:"Transmisión",sku:"H233B-4.88-5.89",price:1201.99,stock:"Disponible",fit:"Nissan Patrol H233B · ratios 4.88–5.89",img:"",icon:""},
 {name:"Extended Brake Line Kit",brand:"TRAIL-GEAR",cat:"Frenos",sku:"304503-KIT",price:0,stock:"Consultar",fit:"Patrol Y61 Non-ABS · lift 2–5.9 in",img:"https://www.sneveysoffroad.com/image/cache/catalog/Trail-Gear/304177-KIT-FLCL-500x500.jpg",icon:""}
 ]
-var cats=[["Inicio","⌂",""],["Suspensión","","/assets/suspension.svg"],["Frenos","","/assets/brakes.svg"],["Dirección","","/assets/steering.svg"],["Transmisión","","/assets/transmission.svg"],["Motor","","/assets/motor.svg"],["Refrigeración","","/assets/cooling.svg"],["Eléctrico","","/assets/electrical.svg"]],C=[],active="Inicio";
+var cats=[["Inicio","⌂",""],["Suspensión","","/assets/suspension.svg"],["Frenos","","/assets/brakes.svg"],["Dirección","","/assets/steering.svg"],["Transmisión","","/assets/transmission.svg"],["Motor","","/assets/motor.svg"],["Refrigeración","","/assets/cooling.svg"],["Eléctrico","","/assets/electrical.svg"],["Carrocería","","/assets/body.svg"],["Accesorios","","/assets/accessories.svg"],["Neumáticos","","/assets/tires.svg"]],C=[],active="Inicio";
 try{C=JSON.parse(localStorage.getItem("patrolY61Cart")||"[]")||[]}catch(e){}
 function money(v){return v?("US$ "+v.toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2})):"Consultar"}
 function save(){try{localStorage.setItem("patrolY61Cart",JSON.stringify(C))}catch(e){}var n=0,t=0;C.forEach(function(x){n+=x.q;t+=products[x.i].price*x.q});count.textContent=n;cartTotal.textContent="US$ "+t.toLocaleString("en-US",{maximumFractionDigits:0})}
